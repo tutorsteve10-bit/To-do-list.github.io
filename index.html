@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>To-Do List</h2>
+    
+    <p id="taskCounter" class="task-count">0 tasks remaining</p>
+
+    <div class="input-group">
+      <label for="taskInput" class="visually-hidden">Enter New Task</label>
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <button id="addTaskBtn" aria-label="Add Task">
+        <i class="fas fa-plus"></i>
+      </button>
+    </div>
+    
+    <p id="errorFeedback" class="error-message"></p>
+
+    <ul id="taskList" role="list">
+      </ul>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
