@@ -1,2 +1,2 @@
 # To-do-list.github.io
-
+The ultimate tool for getting things done. This task management application provides a distraction-free experience to help you capture, organize, and complete your tasks efficiently. Key Features: * Blazing Fast: Quick adding and loading of tasks. * Clean UI: Focus on what matters—your to-dos. * Cross-Platform: Available on [mention platforms, e.g., Web, iOS, Android]. * Tagging/Categories: Effortlessly organize your tasks.
